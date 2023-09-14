@@ -1,6 +1,5 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-// import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -25,14 +24,6 @@ const Business = () =>  (
   Yang bisa <br className="sm:block hidden" /> Anda Dapatkan
   <br className="sm:block hidden" /> Di <span style={{ color: "#00F6FF" }}>Ansan-So Gym & Aerobic</span>
 </h2>
-
-      {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
-      </p> */}
-
-      {/* <Button styles={`mt-10`} /> */}
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

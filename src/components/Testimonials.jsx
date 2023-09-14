@@ -1,6 +1,4 @@
-import { feedback } from "../constants";
 import styles from "../style";
-// import FeedbackCard from "./FeedBackCard";
 
 const Testimonials = () => (
   <section
@@ -17,15 +15,12 @@ const Testimonials = () => (
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Dapatkan harga spesial untuk langganan pertama kali !!, Dan dapatkan
-          hal-hal dan penawaran yang menarik disini !
+          Dapatkan harga spesial untuk langganan pertama kali! dan dapatkan
+          hal-hal dan penawaran yang menarik disini!
         </p>
       </div>
     </div>
 
-    {/* <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-      {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
-    </div> */}
   </section>
 );
 
