@@ -14,7 +14,7 @@ const Testimonials = () => (
         <span style={{ color: "#00F6FF" }}>Ansan-So Gym & Aerobic</span>
       </h2>
       <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+        <p className={`${styles.paragraph} text-right max-w-[450px]`}>
           Dapatkan harga spesial untuk langganan pertama kali! dan dapatkan
           hal-hal dan penawaran yang menarik disini!
         </p>

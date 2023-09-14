@@ -24,11 +24,9 @@ const Billing = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
         Ada berbagai macam alat gym yang bisa digunakan untuk melatih jasmani
       </p>
-      <br />
       <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
         Tempat yang nyaman, bersih, dan sehat
       </p>
-      <br />
       <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
         Ada juga tempat yang luas untuk senam, aerobik, maupun latihan bela diri
       </p>
