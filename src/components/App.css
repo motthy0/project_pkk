@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7fafc;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  background-color: #1a202c;
+  padding: 20px;
+  color: white;
+}
+
+.minimap-container {
+  margin-top: 20px;
+}
+
+.minimap-link {
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease-in-out;
+}
+
+.minimap-link:hover {
+  transform: scale(1.05);
+}
+
+.minimap-image {
+  border-radius: 8px;
+}

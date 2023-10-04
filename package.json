@@ -1,7 +1,7 @@
 {
   "name": "project_pkk",
   "private": true,
-  "homepage":"https://ant1po1e.github.io/ansan-so/",
+  "homepage": "https://ant1po1e.github.io/ansan-so/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,12 +9,16 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "first -d build"
+    "predeploy": "npm run build",
+    "deploy": "first -d build"
   },
   "dependencies": {
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.8",
+    "swiper": "^10.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

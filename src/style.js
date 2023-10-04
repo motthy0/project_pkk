@@ -13,6 +13,13 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    smallImage: {
+      maxWidth: '100%', // Menyesuaikan lebar maksimum sesuai kebutuhan
+      maxHeight: '200px', // Menyesuaikan tinggi maksimum sesuai kebutuhan
+      width: 'auto',
+      height: 'auto',
+    },
   };
   
   export const layout = {
